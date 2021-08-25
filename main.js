@@ -48,7 +48,7 @@ function draw(){
         remove_desimals= floor(inNumberleftwristY);
         leftwrist_divide= remove_desimals/500;
         volume=leftwrist_divide*2;
-        
+        document.getElementById("volume").innerHTML="volume="+volume;
     }  
 }
 
